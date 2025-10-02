@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "cypress" : "cypress open"
-  },
+ "scripts": {
+  "test": "jest --coverage",
+  "test:integration": "jest tests/integration",
+  "test:cypress": "cypress run"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
